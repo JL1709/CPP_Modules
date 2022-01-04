@@ -6,7 +6,7 @@
 /*   By: julian <julian@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/22 14:33:04 by julian            #+#    #+#             */
-/*   Updated: 2021/12/22 15:44:32 by julian           ###   ########.fr       */
+/*   Updated: 2021/12/29 09:22:35 by julian           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ class List
 
 	private:
 		T		_content;
-		List<T>	_next		
+		List<T>	_next
 };
 
 int	main(void)

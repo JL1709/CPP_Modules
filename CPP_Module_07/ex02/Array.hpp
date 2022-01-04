@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   Array.hpp                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jludt <jludt@student.42.fr>                +#+  +:+       +#+        */
+/*   By: julian <julian@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/23 10:08:23 by jludt             #+#    #+#             */
-/*   Updated: 2021/12/23 16:06:49 by jludt            ###   ########.fr       */
+/*   Updated: 2022/01/04 10:51:38 by julian           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #pragma once
 
-template< typename  T >
+template< typename T >
 class Array
 {
 	private:
@@ -28,7 +28,7 @@ class Array
 			this->_array = new T[src.size()];
 			this->_size = src._size;
 			for (unsigned int i = 0; i < src.size(); i++)
-				this->_array[i] = src[i];
+				this->_array[i] = src._array[i];
 		}
 		
 		Array	&operator=(Array const & rhs)
@@ -39,7 +39,7 @@ class Array
 				this->_array = new T[rhs.size()];
 				this->_size = rhs._size;
 				for (unsigned int i = 0; i < rhs.size(); i++)
-					this->_array[i] = rhs[i];
+					this->_array[i] = rhs._array[i];
 			}
 			return (*this);
 		}
