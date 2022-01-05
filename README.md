@@ -1,5 +1,6 @@
 # CPP_Modules
-This repo provides different submodules to discover the C++ language and dive into Object Oriented Programming! 
+This repo provides different submodules to discover the C++ language and dive into Object Oriented Programming!  
+Tested on macOS Monterey.
 
 ## Installation
 
@@ -16,5 +17,5 @@ make
 
 #### 3)  Run program
 ```
-./"nameOfProgram" (➔ mentioned in terminal during compilation)
+./"nameOfProgram" (⟶ mentioned in terminal during compilation)
 ```
