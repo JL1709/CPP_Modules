@@ -5,24 +5,16 @@ This repo provides different submodules to discover the C++ language and dive in
 
 #### 1) Clone this repository 
 ```
-git clone git@github.com:JL1709/Cub3D.git
+git clone git@github.com:JL1709/CPP_Modules.git
 ```
 
-#### 2) Execute Makfile
+#### 2) Execute Makfile of the preferred program
 ```
-cd Cub3D
+cd CPP_Modules/CPP_Module_0X/ex0X
 make
 ```
 
 #### 3)  Run program
 ```
-./Cub3D map/rc.cub
+./"nameOfProgram" (→ mentioned in terminal during compilation)
 ```
-Press/hold:
-- a - move to the left
-- d - move to the right
-- w - move foreward
-- s - move backwards
-- ← - rotate to the left
-- → - rotate to the right
-- Rotate the point of view with the mouse
