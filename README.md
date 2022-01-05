@@ -3,7 +3,7 @@ This repo provides different submodules to discover the C++ language and Object 
 | Submodule   | Topic                      |
 | :---------: | ---------------------------- | 
 | 01        | `namespace`, `stdio streams`, `class and instance`, `member attributes and member functions`, `this`, `initialization list`, `const`, `visibility`, `class vs struct`, `accessors`, `comparisons`, `non-member attributes and non-member functions`, `pointers to members` |
-| 02        | sdsd |
+| 02        | `new and delete` `references`, filestream` |
 | 03        | sdsd |
 | 04        | sdsd |
 | 05        | sdsd |
