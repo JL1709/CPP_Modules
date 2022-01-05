@@ -16,5 +16,5 @@ make
 
 #### 3)  Run program
 ```
-./"nameOfProgram" (→ mentioned in terminal during compilation)
+./"nameOfProgram" (⟶ mentioned in terminal during compilation)
 ```
