@@ -6,7 +6,7 @@
 /*   By: julian <julian@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/29 09:04:48 by julian            #+#    #+#             */
-/*   Updated: 2022/01/04 17:32:44 by julian           ###   ########.fr       */
+/*   Updated: 2022/01/05 09:18:42 by julian           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ int	main(void)
 	for (int i = 0; i < 42; i++)				// Add new element at the end of the list
 		myList.push_back(i);
 
-	easyfind(myArray, 42);
+	easyfind(myArray, 84);
 	easyfind(myVector, 21);
 	easyfind(myList, 42);
 
