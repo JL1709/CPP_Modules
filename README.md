@@ -4,7 +4,7 @@ This repo provides different submodules to discover the C++ language and Object 
 | :---------: | ---------------------------- | 
 | 00        | `namespace` `stdio streams` `class and instance` `member attributes and member functions` `this` `initialization list` `const` `visibility` `class vs struct` `accessors` `comparisons` `non-member attributes and non-member functions` `pointers to members` |
 | 01        | `new and delete` `references` `filestream` |
-| 02        | `ad-hoc polymorphism` `operator overload` `canonical form` |
+| 02        | `ad-hoc polymorphism` `operator overload` `orthodox canonical form` |
 | 03        | `inheritance` |
 | 04        | `sub-typing polymorphism` `abstract classes` `interfaces` |
 | 05        | `nested classes` `exceptions`|
