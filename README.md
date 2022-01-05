@@ -2,14 +2,15 @@
 This repo provides different submodules to discover the C++ language and Object Oriented Programming.
 | Submodule   | Topic                      |
 | :---------: | ---------------------------- | 
-| 01        | `namespace` `stdio streams` `class and instance` `member attributes and member functions` `this` `initialization list` `const` `visibility` `class vs struct` `accessors` `comparisons` `non-member attributes and non-member functions` `pointers to members` |
-| 02        | `new and delete` `references` `filestream` |
-| 03        | `ad-hoc polymorphism` `operator overload` `canonical form`|
-| 04        | sdsd |
-| 05        | sdsd |
-| 06        | sdsd |
-| 07        | sdsd |
-| 08        | sdsd |
+| 00        | `namespace` `stdio streams` `class and instance` `member attributes and member functions` `this` `initialization list` `const` `visibility` `class vs struct` `accessors` `comparisons` `non-member attributes and non-member functions` `pointers to members` |
+| 01        | `new and delete` `references` `filestream` |
+| 02        | `ad-hoc polymorphism` `operator overload` `canonical form` |
+| 03        | `inheritance` |
+| 04        | `sub-typing polymorphism` `abstract classes` `interfaces` |
+| 05        | `nested classes` `exceptions`|
+| 06        | `casts` |
+| 07        | `templates` |
+| 08        | `STL` `templated containers` `iterators` `algorithms` |
 
 Tested on macOS Monterey.
 
