@@ -9,7 +9,7 @@ This repo provides different submodules to discover the C++ language and Object 
 - Module 06:
 - Module 07:
 - Module 08: 
-- 
+
 Tested on macOS Monterey.
 
 ## Installation
