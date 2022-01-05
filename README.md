@@ -1,8 +1,8 @@
 # CPP_Modules
 This repo provides different submodules to discover the C++ language and Object Oriented Programming.
 | Submodule   | Topic                      |
-| :---------: | :---------------------------- | 
-| 01        | `namespace`, stdio streams, class and instance, member attributes and member functions, this, initialization list, const, visibility, class vs struct, accessors, comparisons, non-member attributes and non-member functions, pointers to members |
+| :---------: | ---------------------------- | 
+| 01        | `namespace`, `stdio streams`, `class and instance`, `member attributes and member functions`, `this`, `initialization list`, `const`, `visibility`, `class vs struct`, `accessors`, `comparisons`, `non-member attributes and non-member functions`, `pointers to members` |
 | 02        | sdsd |
 | 03        | sdsd |
 | 04        | sdsd |
