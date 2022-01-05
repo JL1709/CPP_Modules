@@ -11,21 +11,6 @@ This repo provides different submodules to discover the C++ language and Object 
 | 07        | sdsd |
 | 08        | sdsd |
 
-
-
-
-
-
-- Module 00: `namespace`, stdio streams, class and instance, member attributes and member functions, this, initialization list, const, visibility, class vs struct, accessors, comparisons, non-member attributes and non-member functions, pointers to members
-- Module 01:
-- Module 02:
-- Module 03:
-- Module 04:
-- Module 05:
-- Module 06:
-- Module 07:
-- Module 08: 
-
 Tested on macOS Monterey.
 
 ## Installation
