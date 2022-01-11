@@ -6,9 +6,11 @@
 /*   By: julian <julian@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/22 17:34:08 by julian            #+#    #+#             */
-/*   Updated: 2021/12/22 18:09:32 by julian           ###   ########.fr       */
+/*   Updated: 2022/01/11 10:57:05 by julian           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#pragma once
 
 template<typename T>
 void	swap(T &x, T &y)
