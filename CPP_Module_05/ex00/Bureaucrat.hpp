@@ -3,16 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   Bureaucrat.hpp                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: julian <julian@student.42.fr>              +#+  +:+       +#+        */
+/*   By: jludt <jludt@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/20 11:45:04 by julian            #+#    #+#             */
-/*   Updated: 2021/12/20 13:40:20 by julian           ###   ########.fr       */
+/*   Updated: 2022/02/07 14:37:03 by jludt            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #pragma once
 
-# include <string>
+#include <string>
+#include <exception>
 
 class Bureaucrat
 {

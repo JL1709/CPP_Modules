@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Bureaucrat.cpp                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: julian <julian@student.42.fr>              +#+  +:+       +#+        */
+/*   By: jludt <jludt@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/20 11:44:48 by julian            #+#    #+#             */
-/*   Updated: 2021/12/20 16:36:56 by julian           ###   ########.fr       */
+/*   Updated: 2022/02/07 14:45:36 by jludt            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -89,9 +89,9 @@ void			Bureaucrat::decrementGrade(void)
 void	Bureaucrat::signForm(Form &src)
 {
 	if (src.getSigned() == true && (int)this->_grade <= src.getRequiredGradeToSign())
-		std::cout << "<" << this->_name << ">" << " signs <" << src.getName() << ">" << std::endl;
+		std::cout << this->_name << " signs " << src.getName() << std::endl;
 	else
-		std::cout << "<" << this->_name << ">" << " cannot sign <" << src.getName() << ">" << " because grade too low"<< std::endl;
+		std::cout << this->_name << " cannot sign " << src.getName() << " because grade too low"<< std::endl;
 }
 
 const char	*Bureaucrat::GradeTooHighException::what() const throw()
@@ -106,6 +106,6 @@ const char	*Bureaucrat::GradeTooLowException::what() const throw()
 
 std::ostream &	operator<<(std::ostream &o, Bureaucrat const &i)
 {
-	o << "<" << i.getName() << ">" << ", bureaucrat grade <" << i.getGrade() << ">";
+	o << i.getName() << ", bureaucrat grade " << i.getGrade();
 	return (o);
 }

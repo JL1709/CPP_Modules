@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: julian <julian@student.42.fr>              +#+  +:+       +#+        */
+/*   By: jludt <jludt@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/20 11:44:30 by julian            #+#    #+#             */
-/*   Updated: 2021/12/20 19:52:26 by julian           ###   ########.fr       */
+/*   Updated: 2022/02/07 15:04:00 by jludt            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,48 +49,48 @@ int	main(void)
 
 /*--------------------RobotomyRequestForm--------------------*/
 
-	// RobotomyRequestForm		y("robot");
+	RobotomyRequestForm		y("robot");
 
-	// std::cout << y << std::endl;
+	std::cout << y << std::endl;
 	
-	// std::cout << std::endl;
+	std::cout << std::endl;
 
-	// y.beSigned(b);
-	// std::cout << y << std::endl << std::endl;
+	y.beSigned(b);
+	std::cout << y << std::endl << std::endl;
 
-	// b.executeForm(y);
-	// std::cout << y << std::endl << std::endl;
+	b.executeForm(y);
+	std::cout << y << std::endl << std::endl;
 
-	// y.beSigned(a);
-	// std::cout << y << std::endl << std::endl;
+	y.beSigned(a);
+	std::cout << y << std::endl << std::endl;
 
-	// b.executeForm(y);
-	// std::cout << y << std::endl << std::endl;
+	b.executeForm(y);
+	std::cout << y << std::endl << std::endl;
 
-	// a.executeForm(y);
+	a.executeForm(y);
 	
 
 /*--------------------PresidentailPardonForm--------------------*/
 
-	PresidentialPardonForm	z("pardon");
+	// PresidentialPardonForm	z("pardon");
 
-	std::cout << z << std::endl;
+	// std::cout << z << std::endl;
 	
-	std::cout << std::endl;
+	// std::cout << std::endl;
 
-	z.beSigned(b);
-	std::cout << z << std::endl << std::endl;
+	// z.beSigned(b);
+	// std::cout << z << std::endl << std::endl;
 
-	b.executeForm(z);
-	std::cout << z << std::endl << std::endl;
+	// b.executeForm(z);
+	// std::cout << z << std::endl << std::endl;
 
-	z.beSigned(a);
-	std::cout << z << std::endl << std::endl;
+	// z.beSigned(a);
+	// std::cout << z << std::endl << std::endl;
 
-	b.executeForm(z);
-	std::cout << z << std::endl << std::endl;
+	// b.executeForm(z);
+	// std::cout << z << std::endl << std::endl;
 
-	a.executeForm(z);
+	// a.executeForm(z);
 
 	return (0);
 }
