@@ -14,7 +14,8 @@ CC = c++
 FLAGS = -Wall -Wextra -Werror
 
 # Sources
-SRC =	main.cpp
+SRC =	main.cpp \
+		Base.cpp
 
 OBJ = $(patsubst %.cpp,%.o, $(SRC))
 
