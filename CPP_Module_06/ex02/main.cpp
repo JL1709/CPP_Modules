@@ -6,16 +6,11 @@
 /*   By: julian <julian@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/22 10:09:20 by julian            #+#    #+#             */
-/*   Updated: 2022/02/07 20:42:50 by julian           ###   ########.fr       */
+/*   Updated: 2021/12/22 11:41:29 by julian           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
-
-#include "Base.hpp"
-#include "A.hpp"
-#include "B.hpp"
-#include "C.hpp"
 
 /* ************************************************************************** */
 
@@ -26,10 +21,10 @@
 
 /* ************************************************************************** */
 
-// class Base				{ public: virtual ~Base(void) {} };
-// class A : public Base	{};
-// class B : public Base	{};
-// class C : public Base	{};
+class Base				{ public: virtual ~Base(void) {} };
+class A : public Base	{};
+class B : public Base	{};
+class C : public Base	{};
 
 /* ************************************************************************** */
 
