@@ -11,7 +11,7 @@ BLUE	= \033[34m
 CC = c++
 
 # Compiling flags
-FLAGS = -Wall -Wextra -Werror
+FLAGS = -Wall -Wextra -Werror -std=c++98
 
 # Sources
 SRC =	main.cpp

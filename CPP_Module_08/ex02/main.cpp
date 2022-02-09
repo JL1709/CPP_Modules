@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: julian <julian@student.42.fr>              +#+  +:+       +#+        */
+/*   By: jludt <jludt@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/05 09:23:48 by julian            #+#    #+#             */
-/*   Updated: 2022/01/05 12:51:26 by julian           ###   ########.fr       */
+/*   Updated: 2022/02/09 11:10:59 by jludt            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "mutantstack.hpp"
+#include "MutantStack.hpp"
 #include <iostream>
 #include <list>
 
@@ -21,9 +21,11 @@ int main()
 	std::cout << "MutantStack:" << std::endl;
 	
 	MutantStack<int> mstack;
-	
+
+	std::cout << std::boolalpha << "Stack is empty: " << mstack.empty() <<  std::noboolalpha <<std::endl;
 	mstack.push(5);
 	mstack.push(17);
+	std::cout << std::boolalpha << "Stack is empty: " << mstack.empty() <<  std::noboolalpha <<std::endl;
 	
 	std::cout << "Top element in the stack: " << mstack.top() << std::endl;
 	
@@ -64,7 +66,7 @@ int main()
 
 /* -------------------------------------------------------------------------- */
 	
-	std::cout << "std::list:" << std::endl;
+	std::cout << "\nstd::list:" << std::endl;
 	
 	std::list<int> list;
 	

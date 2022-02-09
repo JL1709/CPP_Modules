@@ -3,21 +3,23 @@
 /*                                                        :::      ::::::::   */
 /*   easyfind.hpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: julian <julian@student.42.fr>              +#+  +:+       +#+        */
+/*   By: jludt <jludt@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/29 09:04:50 by julian            #+#    #+#             */
-/*   Updated: 2022/01/05 09:19:05 by julian           ###   ########.fr       */
+/*   Updated: 2022/02/09 09:21:50 by jludt            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #pragma once
 
 #include <iostream>
+#include <iterator>
+#include <algorithm>
 
-template< typename T >							// Template definition
-int easyfind(T &container, int const &nbr)		// Template function
+template< typename T >
+int easyfind(T &container, int nbr)
 {
-	typename T::const_iterator result = std::find(begin(container), end(container), nbr);
+	typename T::iterator result = std::find(begin(container), end(container), nbr);
 
 	if (result != std::end(container))
 	{
@@ -25,6 +27,6 @@ int easyfind(T &container, int const &nbr)		// Template function
 		return (1);
 	}
 	else
-		std::cout << "container does not contain " << nbr << '\n';
+		std::cout << "container doesn't contain " << nbr << '\n';
 	return (-1);
 }

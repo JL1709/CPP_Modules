@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: julian <julian@student.42.fr>              +#+  +:+       +#+        */
+/*   By: jludt <jludt@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/29 09:04:48 by julian            #+#    #+#             */
-/*   Updated: 2022/01/05 09:18:42 by julian           ###   ########.fr       */
+/*   Updated: 2022/02/09 09:20:54 by jludt            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ int	main(void)
 	std::list<int>		myList;
 
 	for (int i = 0; i < 42; i++)				// Fill array with value
-		std::fill_n (myArray.begin()+i, 1, i);
+		std::fill_n (myArray.begin() + i, 1, i);
 	for (int i = 0; i < 42; i++)				// Add new element at the end of the vector
 		myVector.push_back(i);
 	for (int i = 0; i < 42; i++)				// Add new element at the end of the list
